@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Projectile Motion
+        </title>
+        <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container gx-3">
+            <h1 class="text-center p-4">
+                Projectile Motion
+             </h1>
+            <div class="row">
+                <form class="p-md-3 px-lg-4 col-sm-12 col-md-4 col-lg-3" action="javascript:;">
+                    <label for="inputVelocity">Inital Velocity:</label><br>
+                    <input required type="text" id="inputVelocity" name="inputVelocity"><span> m/s</span><br>
+                    <label for="inputAngle">Projection Angle:</label><br>
+                    <input required type="text" id="inputAngle" name="inputAngle" value=""><span> °</span><br><br>
+                    <input id="launchButton" type="submit" value="Launch" class="btn btn-primary">
+                    <input id= "resetButton" type="reset" value="Reset" class="btn btn-outline-light">
+                  </form>
+                  <div class="p-0 ml-md-4 mb-5 mt-3 col-sm-12 col-md-7 col-lg-8">
+                    <canvas class="row mx-2"> </canvas>
+                    <textarea readonly="readonly" class="console row mx-2"></textarea>
+                 </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "projectile-motion-interactive-simulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch css/styles.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameeramadian/Projectile-Motion-Interactive-Simulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameeramadian/Projectile-Motion-Interactive-Simulation/issues"
+  },
+  "homepage": "https://github.com/ameeramadian/Projectile-Motion-Interactive-Simulation#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

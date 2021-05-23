@@ -1,0 +1,21 @@
+.container {
+  background-image: url("/images/bgb.jpeg"); }
+
+h1 {
+  color: #f04c00; }
+
+label {
+  color: white; }
+
+span {
+  color: white; }
+
+canvas {
+  background-color: white;
+  border: dotted 1px black;
+  width: 95%; }
+
+.console {
+  margin-top: 24px;
+  width: 95%;
+  height: 100px; }
